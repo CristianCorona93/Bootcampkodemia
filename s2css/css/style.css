@@ -1,0 +1,54 @@
+/*selector universal */
+*{
+    color:peru;
+}
+
+/* selector por tagname*/
+p{
+    text-transform: uppercase;
+}
+
+/* selector por ID  elementos unicos */
+#page-heading{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/*selector por clase, hay mas elementos*/
+.btn-succes{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px dotted #2a042f;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #2a042f;
+    color: black
+}
+ 
+/*practica s2css */
+
+ol{
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px slategray;
+}
+
+li{
+    border: 1px solid blue;
+    list-style: none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#first-li{
+    text-transform: uppercase;
+    color: magenta; 
+
+}
+
+/* selector por anidacion, que vivan dentro de uno en particular, elemento padre, hijo etc*/ 
+
+body{
+    background: #333
+}
